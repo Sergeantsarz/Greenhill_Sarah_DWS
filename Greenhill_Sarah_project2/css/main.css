@@ -92,7 +92,6 @@ h2 {
 	color: #2d6d9c;
 	text-decoration: underline;
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-	/*background-color: #ffd938;*/
 
 }
 
@@ -113,13 +112,13 @@ body {
 	font-weight: 1em;
 	line-height: inherit;
 	margin: 0 auto;
-	background-color: #2d6d9c;
+	background-color: #5E5E47;
 	overflow-x: hidden;
 	text-shadow: 2px 2px 8px #c78300;
 }
 
 h3 {
-	background-color: #2d6d9c;
+	background-color: #5E5E47;
 	box-shadow: 2px 8px 20px rgba(68,68,68,0.6);
 	width: 1200px;
 	padding-left: 20px;
