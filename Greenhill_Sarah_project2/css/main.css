@@ -34,7 +34,7 @@
     width: 250px;
     font-weight: bold;
     color: #FFFFFF;
-    /*background-color: #2d6d9c;*/
+    background-color: #2d6d9c;
     text-align: center;
     padding: 4px;
     text-decoration: none;
@@ -44,7 +44,7 @@
 	width: 250px;
     font-weight: bold;
     color: #FFFFFF;
-    /*background-color: #ffd938;*/
+    background-color: #ffd938;
     text-align: center;
     padding: 4px;
     text-decoration: none;
@@ -129,7 +129,7 @@ h3 {
 /* */
 
 .steamPic{
-	padding-left: 410px;
+	padding-left: 390px;
 	padding-bottom: 30px;
 	opacity: 0.5;
 	
