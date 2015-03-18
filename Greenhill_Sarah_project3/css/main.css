@@ -1,7 +1,9 @@
 /* Logo */
 
 #top {
-	margin: 0 auto 0 auto;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     padding-bottom: 10px;
     
 }
