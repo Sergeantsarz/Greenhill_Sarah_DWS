@@ -96,7 +96,24 @@
   	<div id= botPage><!--BotDivStart-->	
   	<a id="bottom" href="#top">Click to Go Back to The Top</a> <!--NavToTop-->
   	</div><!--BotDivEnd-->
+  	
+  	<form id="contactValve" class="form" name="Contact Valve" action="sdk@valvesoftware.com" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+    <h1>Contact Valve </h1>
+    <div class="content">
+        <div class="intro"><p><em>Valve</em> works closely with developers to make the game development process as easy as possible. If you're a mod or developer, use <strong>this form</strong> to contact them about obtaining their dev kits.</p></div>
+        <div id="section0" >
+            <div class="field"><label for="Iama">I am a: </label><span>Developer</span><input value="Dev" id="Iama" name="Iama" required type="checkbox"><span>Modder</span><input value="Mod" id="Iama" name="Iama" required type="checkbox"><span>Student</span><input value="Stud" id="Iama" name="Iama" required type="checkbox"></div>
+        </div>
+        <h2 class="section">Email Valve About Their SDK</h2>
+        <div id="section1" >
+            <div class="field"><label for="yourEmail">Your Email:</label><input id="yourEmail" name="yourEmail" maxlength="30" size="10" value="Write your email here! " placeholder="Write Your Email Here " required type="email"></div>
+            <div class="field"><label for="iNeedTheSDKPackageTo">I need the SDK Package to: </label><select id="iNeedTheSDKPackageTo" name="iNeedTheSDKPackageTo" required><option value="Dev">I am a developer seeking to create games or apps.</option><option value="Student">I am a student looking to use the SDK for educational purposes.</option><option value="Mod">I am interested in making mods. </option></select></div>
+            <div class="field"><label for="Send">Send It Off!</label><input id="Send" name="Send" disabled readonly type="submit"></div>
+        </div>
+    </div>
+</form>
 	</div><!--WrapperDivEnd-->
+	
 </body>
 	
 </html>

@@ -246,3 +246,76 @@ ol {
 	
 }
 
+/* Form CSS */
+
+ .form{ 
+    max-width: 100%; 
+    min-width: 25%; 
+    border-width: 2px; 
+    border-color: #CC3737; 
+    border-radius: 14px; 
+    border-style: solid; 
+    color: #000000; 
+    font-size: 12px; 
+    margin: 5px; 
+    background-color: #F5F5F5; 
+    padding: 20px; 
+} 
+.content{ 
+    margin: 5px; 
+} 
+.form label{ 
+    color: #000000; 
+    font-size: 12px; 
+    display: block; 
+} 
+.form input[type=radio], input[type=checkbox]{ 
+    margin: 10px; 
+    width: 13px; 
+} 
+.form div{ 
+    display: block; 
+} 
+.form input, form textarea, form select{ 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: #B33939; 
+    border-radius: 5px; 
+    padding: 3px; 
+    width: 100%; 
+} 
+.form, .form h1, .form h2{ 
+    font-family: 'Courier New', Georgia, sans-serif; 
+} 
+.form h1{ 
+    font-size: 40px; 
+    color: #5E5E47; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 7px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #CCCCCC; 
+    border-bottom-width: 2px; 
+    border-radius: 4px; 
+    background-color: #FFFFFF; 
+} 
+.intro{ 
+    margin-bottom: 5px; 
+} 
+.clear{ 
+    clear: both; 
+} 
+.form textarea{ 
+    height: 103px; 
+    width: 100%; 
+} 
+.form input[type=submit]{ 
+    width: 19%; 
+    background-color: #A6A6A6; 
+    color: #000000; 
+} 
+.field{ 
+    margin-bottom: 0px; 
+} 
+
+
