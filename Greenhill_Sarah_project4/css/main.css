@@ -1,0 +1,248 @@
+/* Logo */
+
+#top {
+	margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 10px;
+    
+}
+
+/* Center Page w/ Wrapper */
+
+#wrapper { 
+	margin: 0 auto; 
+	width: 1200px;
+	overflow-x: hidden;
+} 
+
+/* Navigation */
+
+#nav {
+	float: left;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+    padding-bottom: 20px;
+    padding-left: 80px;
+   
+}
+
+#nav a:link {
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#nav a:visited {
+	width: 250px;
+    font-weight: bold;
+    color: #661400;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+	
+}
+
+#nav a:hover {
+	text-decoration: underline;
+	background-color: #CC0000;
+	color: #ffffff;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+
+#nav a:active {
+    color: #99a6e5;
+}
+
+#nav ul {
+	list-style-type: none;
+	float: left;
+	clear: left;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+#nav ul li {
+	display: inline;
+	float: left;
+	list-style: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+/* Remove Auto-Bolding */
+
+h1, h2, h3, h4, a {
+	font-weight: normal;
+}
+
+/* Alter HTML/Body Elements */
+
+h2 {
+	
+	font-size: 2em;
+	color: #5E5E47;
+	text-decoration: underline;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-left: 100px;
+
+}
+
+body {
+	background-color: #000000;
+	font-size: 16px;
+	font-family:'Yanone Kaffeesatz', Georgia, sans-serif;
+	color: #ffffff;
+	text-indent: 5px;
+	text-align: left;
+	border: #9B9BAB solid 4px;
+	border-radius: 40px;
+	padding: 10px;
+	overflow-x: hidden;
+}
+
+#pageMainText{
+	font-weight: bold;
+	line-height: inherit;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #5E5E47;
+	overflow-x: hidden;
+	text-shadow: 2px 2px 8px #c78300;
+}
+
+h3 {
+	background-color: #5E5E47;
+	background: #2d6d9c url(../images/dark-canvas.gif) repeat-x center;
+	box-shadow: 2px 8px 20px rgba(68,68,68,0.6);
+	padding-left: 530px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	font-style: oblique;
+}
+
+/* Steam Pic Logo*/
+
+#steamPic{
+	padding-left: 490px;
+	padding-bottom: 30px;
+	opacity: 0.5;
+	
+}
+
+/* Remove bullets from list items globally */ 
+
+ul {
+	list-style-type: none;
+   
+}
+
+/* Links */
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Non-nav Unvisited */
+
+a:link {
+    color: #ffffff;
+}
+
+/* Non-nav Visited */
+
+a:visited {
+    color: #661400;
+    font-weight: bold; 
+}
+
+/* Non-nav Hover */
+
+ul a:hover {
+	text-decoration: underline;
+	background-color: #000000;
+	color: #ffffff;
+	
+}
+
+/* Non-nav Active */
+
+a:active {
+    color: #0000FF;
+} 
+
+/* Floated Elements */
+
+#rightBlock{
+	position: relative;
+	float: right;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	
+}
+
+#leftBlock{
+	position: relative;
+	float: left;
+	padding-left: 150px;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	clear: both;
+}
+
+/* Clear Float */
+
+#clear{
+	clear: both;
+}
+
+/* Fave Games Color */ 
+
+ol {
+	color: #5E5E47;
+}
+
+/* Images */
+
+#imgContainer a, figcaption{  
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    width: 40%;
+	border: none;
+	text-align: center;
+}
+
+
+/* Bottom To Top Link */
+
+#bottom {
+	padding-left: 10px;
+	
+}
+
